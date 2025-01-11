@@ -1,4 +1,3 @@
-# Import necessary libraries
 from flask import Flask, request, jsonify, render_template
 import tensorflow as tf
 from tensorflow.keras.models import load_model, Model
