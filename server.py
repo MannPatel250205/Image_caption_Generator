@@ -18,8 +18,8 @@ tokenizer = None
 
 def load():
     try:
-        model = load_model("/artifacts/best_model.keras")
-        with open("/artifacts/tokenize.pkl", "rb") as f:
+        model = load_model("artifacts/best_model.keras")
+        with open("artifacts/tokenize.pkl", "rb") as f:
             tokenizer = pickle.load(f)
         return model, tokenizer
     except Exception as e:
