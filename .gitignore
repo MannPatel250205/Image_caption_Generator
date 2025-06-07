@@ -1,2 +1,4 @@
 myenv/
 .vscode/
+artifacts/features.pkl
+artifacts/best_model.h5
